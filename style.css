@@ -2,6 +2,8 @@
     borde: 1px solid black;
     font-family: "Roboto", "Sans serif";
     }
+    body {
+    margin: 0;}
     
     .logo{
         display: flex;
@@ -10,10 +12,14 @@
     .logoblack {
      width: 50%;
     }
+    .grisfonce {
+     background-color: silver;
+    }
     
     .Ohmyfoods {
     display: flex;
     justify-content: center ;
+    box-shadow: 0px 2px 5px 0px gray;
     }
     
     .Ohmyfoode {
@@ -26,12 +32,15 @@
     }
     
     .explorer {
-        border-radius: 1rem;
-        background-color: #FF79DA;
+        border-radius: 50px;
+        background: linear-gradient(to top left,#9356DC, #FF79DA);
         color: white;
         padding: 5%;
         width: 50%;
         margin: auto;
+       box-shadow: 0px 5px 5px 1px silver;
+    }
+    
     }
     .grisfonce{
     background-color: silver;
@@ -46,8 +55,45 @@
         border-radius: 1rem;
         text-align: left;
         margin:10px;
-        padding-left: 15px;
+    counter-increment: etapes;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 5px 5px 1px silver;
     }
+    
+    .fa, .fas {
+     font-weight:900;
+     padding-left: 20px;
+     padding-right: 20px;
+    }
+    
+        .boutons:before {
+    content: counter(etapes);
+    border-radius: 50%;
+    background-color: #9356DC;
+    color: white;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10px;
+    position: absolute;
+    }
+    
+    .choix {
+    counter-reset: etapes;
+    padding-left: 0;
+    }
+    
+    .boutons{
+    counter-increment: etapes;
+    list-style-type: none;
+    }
+    
     footer{
     background-color: #303030;
     color: white;
