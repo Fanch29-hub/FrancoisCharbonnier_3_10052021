@@ -1,7 +1,19 @@
 *{
     borde: 1px solid black;
     font-family: "Roboto", "Sans serif";
+    text-decoration:none;
     }
+    
+    
+    
+    .choix li:hover,.explorer:hover,figure:hover{
+     transform: scale(1.01);
+    }
+    
+    a{
+    color:black;
+    }
+    
     body {
     margin: 0;}
     
