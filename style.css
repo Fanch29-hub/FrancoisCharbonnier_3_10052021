@@ -6,9 +6,10 @@
     
     
     
-    .choix li:hover,.explorer:hover,figure:hover{
+    .choix li:hover,.explorer:hover,.commander:hover,figure:hover,.boutonsmenu:hover{
      transform: scale(1.01);
     }
+    
     
     a{
     color:black;
@@ -20,6 +21,7 @@
     .logo{
         display: flex;
         justify-content: center;
+        text-align:center;
     }
     .logoblack {
      width: 50%;
@@ -82,7 +84,7 @@
      padding-right: 20px;
     }
     
-        .boutons:before {
+    .boutons:before {
     content: counter(etapes);
     border-radius: 50%;
     background-color: #9356DC;
@@ -155,6 +157,51 @@
     padding-left: 10px
     }
     
+    .commander {
+        text-align:center;
+        border-radius: 50px;
+        background: linear-gradient(to top left,#9356DC, #FF79DA);
+        color: white;
+        padding: 5%;
+        width: 30%;
+        margin: auto;
+       box-shadow: 0px 5px 5px 1px silver;
+    }
+    
+    .arrow{
+    position: absolute;
+      top: 10px;
+      left: 0;
+      width: 30px;
+      height: 20px;
+    }
+    
+    .backgroundmenu img{
+    height: 9rem;
+        object-fit: cover;
+        max-width: 100%;
+        width: 100%;
+        max-height: 100%;
+    }
+    
+    .fondgrismenu{
+    background-color: #EFEFEF;
+    margin-top:20px;
+    border-radius: 1rem 1rem 0 0;
+    }
+    
+    .boutonsmenu {
+        background: white;
+        border-radius: 1rem;
+        text-align: left;
+        margin:10px;
+    counter-increment: etapes;
+    list-style-type: none;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 5px 5px 1px silver;
+    }
     
     
     
