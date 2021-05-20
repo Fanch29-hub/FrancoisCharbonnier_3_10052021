@@ -18,22 +18,36 @@
     body {
     margin: 0;}
     
+    .blockpage{
+    width:100%;
+    }
+    
     .logo{
         display: flex;
         justify-content: center;
         text-align:center;
+        padding: 30px 0 10px 0;
+        
     }
     .logoblack {
-     width: 50%;
+     width: 45%;
     }
     .grisfonce {
-     background-color: silver;
+     background: linear-gradient(to top,#f2f2f2, #353535);
+     padding: 12px 0 12px 0;
+     margin-left:-45px;
+     font-size:0.8em;
+     font-weight: bold;
+    }
+    
+    h1{
+    margin: 30px 40px 10px 40px;
+    font-size: 1.3em;
     }
     
     .Ohmyfoods {
     display: flex;
     justify-content: center ;
-    box-shadow: 0px 2px 5px 0px gray;
     }
     
     .Ohmyfoode {
@@ -48,16 +62,23 @@
     .explorer {
         border-radius: 50px;
         background: linear-gradient(to top left,#9356DC, #FF79DA);
-        color: white;
-        padding: 5%;
-        width: 50%;
+        padding: 7px 0 11px 0;
+        width: 55%;
         margin: auto;
        box-shadow: 0px 5px 5px 1px silver;
     }
     
+    .explorer a{
+    color:white;
+    font-size:0.8em;
     }
-    .grisfonce{
-    background-color: silver;
+    
+    aside div{
+    background-color: #f2f2f2;
+    }
+    
+    aside {
+    padding-bottom: 45px;
     }
     
     aside{
@@ -109,7 +130,7 @@
     }
     
     footer{
-    background-color: #303030;
+    background-color: #353535;
     color: white;
     }
     
@@ -123,6 +144,7 @@
     
     .textgris{
     color:#696969;
+    margin:0 0 25px 0;
     }
     
     footer a{
@@ -130,7 +152,7 @@
     }
     
     .fondgris{
-    background-color: #EFEFEF;
+    background-color: #f2f2f2 ;
     }
     
      figure img {
@@ -202,6 +224,16 @@
     padding-bottom: 20px;
     box-shadow: 0px 5px 5px 1px silver;
     }
+    
+    h2{
+    margin: 37px 0 20px 17px;
+    font-size:1.25em;
+    }
+    
+    .textgris p{
+    font-size: 0.95em;
+    }
+    
     
     
     
