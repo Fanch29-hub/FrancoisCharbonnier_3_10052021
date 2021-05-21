@@ -26,14 +26,15 @@
         display: flex;
         justify-content: center;
         text-align:center;
-        padding: 30px 0 10px 0;
+        padding: 20px 0 10px 0;	
         
     }
     .logoblack {
      width: 45%;
     }
     .grisfonce {
-     background: linear-gradient(to top,#f2f2f2, #353535);
+     background-color:#EAEAEA; 
+     box-shadow: 0px 3px 3px #CFCFCF inset;						
      padding: 12px 0 12px 0;
      margin-left:-45px;
      font-size:0.8em;
@@ -94,8 +95,10 @@
     list-style-type: none;
     display: flex;
     align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    font-weight: bold;
+    padding: 20px 0 20px 0;
+    margin: 10px 20px 10px 27px;
+    
     box-shadow: 0px 5px 5px 1px silver;
     }
     
@@ -132,6 +135,27 @@
     footer{
     background-color: #353535;
     color: white;
+    font-size: 0.8em;
+    }
+    
+    .flink1{
+    margin: 0 0 0 -40px;
+    padding: 0 0 0 0;
+    }
+    
+    .flink2{
+    margin: 0 0 0 -40px;
+    padding: 0 0 0 0;
+    }
+    
+    .flink3{
+    margin: 0 0 0 -22px;
+    padding: 0 0 0 0;
+    }
+    
+    .flink4{
+    margin: 0 0 0 -22px;
+    padding: 0 0 0 0;
     }
     
     .logowhite {
@@ -149,24 +173,51 @@
     
     footer a{
     filter: invert(1);
+    margin: 0 0 50px 0;
+    padding: 30px 0 0 0;
+    }
+    
+    .f1{
+    margin: 0 0 -40px 20px;
+    }
+    
+    .f2{
+    margin: 0 0 40px 0;
+    }
+    
+    .f3{
+    width:100%;
+    height:20px;
+    color: #353535;
+    }
+    
+    .figuretitre{
+    font-weight: bold
     }
     
     .fondgris{
     background-color: #f2f2f2 ;
+    margin: 55px 0 0 0;
+    padding: 6px 0 40px 0;
     }
     
      figure img {
-        height: 7rem;
+        height: 9rem;
         object-fit: cover;
         max-width: 100%;
         width: 100%;
         max-height: 100%;
         border-radius: 1rem 1rem 0 0;
+        margin: 0 0 7px 0;
+        box-shadow: 0px 5px 5px 1px silver;
     }
     
     figure{
     background-color: white;
     border-radius: 1rem 1rem 1rem 1rem;
+    margin: 17px 17px 15px 17px;
+    padding: 0 0 12px 0;
+    font-size: 0.8em;
     }
     
     p {
