@@ -6,7 +6,7 @@
 <!-- balise "title" -->
 <title>Ohmyfood</title>
 <!-- déclaration de la feuille de style CSS -->
-<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="Aurore style.css" />
 <!-- balise meta de Apple pour adapter l'écran aux smartphones -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- balise meta de description pour le SEO -->
@@ -14,8 +14,12 @@
 <!-- balise pour ajouter les icones de fontawesome -->
 <script src="https://kit.fontawesome.com/2f75277f0d.js" crossorigin="anonymous"></script>
 <!-- polices Google Fonts -->
-<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Shrikhand" />
-<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap" rel="stylesheet"> 
 </head>
 <!-- partie "body" -->
     <body>
@@ -24,10 +28,10 @@
 <!-- partie "HEADER" -->
             <header>
                 <div class="logo">
-                    <a href="#" class="Ohmyfoodf"><img class="logoblack" src="images/ohmyfood.png" alt="logo_Ohmyfood" /></a>
-                     	<div class="arrow">
-                     	 <i class="fas fa-arrow-left"></i>
-                     	</div>
+                	<a href="#" class="Ohmyfoodf"><img class="logoblack" src="images/ohmyfood.png" alt="logo_Ohmyfood" /></a>
+					 </div>
+                <div class="arrow">
+                	<i class="fas fa-arrow-left"></i>
                 </div>
             </header>
             <div class="backgroundmenu">
@@ -43,21 +47,24 @@
 				
             <section>
                 <div>
-                    <div>
+                    <div class="soustitres">
                         <h1>ENTRÉES</h1>
                     </div>
                     <div>
                         <div class="boutonsmenu">
-                            <H2>Fricassée d'escargot</H2>
-                            <P>Au piment d'Espelette 25€</P>
+                            <h2>Fricassée d'escargot</h2>
+                            <p>Au piment d'Espelette</p>
+                            <p>25€</p>
                         </div>
                         <div class="boutonsmenu">
-                            <H2>Foie gras de canard mi-cuit</H2>
-                            <P>Et ses copeaux de truffe noire 35€</P> 
+                            <h2>Foie gras de canard mi-cuit</h2>
+                            <p>Et ses copeaux de truffe noire</p>
+                            <p>35€</p> 
                         </div>
                         <div class="boutonsmenu">
-                            <H2>Oeuf au plat</H2>
-                            <P>Assaisonné à la truffe sur lit de caviar 20€</P> 
+                            <h2>Oeuf au plat</h2>
+                            <p>Assaisonné à la truffe sur lit de caviar</p>
+                            <p>20€</p> 
                         </div>
                     </div>
                 </div>
@@ -65,21 +72,24 @@
 <!-- partie "SECTION2" -->
             <section>
                 <div>
-                    <div>
+                    <div class="soustitres">
                         <h1>PLATS</h1>
                     </div>
                     <div>
                         <div class="boutonsmenu">
-                            <H2>Filet de boeuf aux herbes</H2>
-                            <P>Accompagné de sa ribambelle de légumes 40€</P>
+                            <h2>Filet de boeuf aux herbes</h2>
+                            <p>Accompagné de sa ribambelle de légumes</p>
+                            <p>40€</p>
                         </div>
                         <div class="boutonsmenu">
-                            <H2>Parmentier de queue de boeuf</H2>
-                            <P>À la truffe noire sur sa purée de panais 35€</P>
+                            <h2>Parmentier de queue de boeuf</h2>
+                            <p>À la truffe noire sur sa purée de panais</p>
+                            <p>35€</p>
                         </div>
                         <div class="boutonsmenu">
-                            <H2>Filet de turbot</H2>
-                            <P>Aux agrumes 44€</P>
+                            <h2>Filet de turbot</h2>
+                            <p>Aux agrumes</p>
+                            <p>44€</p>
                         </div>
                     </div>
                 </div>
@@ -87,21 +97,24 @@
 <!-- partie "SECTION3" -->
             <section>
                 <div>
-                    <div>
+                    <div class="soustitres">
                         <h1>DESSERTS</h1>
                     </div>
                     <div>
                         <div class="boutonsmenu">
-                            <H2>Paris-Brest</H2>
-                            <P>Revisité 18€</P>
+                            <h2>Paris-Brest</h2>
+                            <p>Revisité</p>
+                            <p>18€</p>
                         </div>
                         <div class="boutonsmenu">
-                            <H2>Macaron au chocolat d'exception </H2>
-                            <P>Et glace à la vanille de Madagascar 22€</P> 
+                            <h2>Macaron au chocolat d'exception </h2>
+                            <p>Et glace à la vanille de Madagascar</p>
+                            <p>22€</p> 
                         </div>
                         <div class="boutonsmenu">
-                            <H2>Mousse au chocolat </H2>
-                            <P>Au piment d'Espelette et à la truffe noire 23€</P>
+                            <h2>Mousse au chocolat </h2>
+                            <p>Au piment d'Espelette et à la truffe noire</p>
+                            <p>23€</p>
                         </div>
                     </div>
                 </div>
@@ -114,24 +127,26 @@
             </div>
 <!-- partie "FOOTER" -->
             <footer>
-                <div>
+                <div class="f1">
                     <a href="#" class="Ohmyfoode"><img class="logowhite" src="images/ohmyfood.png" alt="logo_Ohmyfood" /></a>
                 </div>
                 <div>
-                    <ul>
-                        <li>
+                    <ul class="f2">
+                        <li class="flink1">
                             <i class="fas fa-utensils"></i><a href="#">Proposer un restaurant</a> 
                         </li>
-                        <li>
+                        <li class="flink2">
                             <i class="fas fa-hands-helping"></i><a href="#">Devenir partenaire</a>
                         </li>
-                        <li>
+                        <li class="flink3">
                             <a href="#">Mentions légales</a>
                         </li>
-                        <li>
+                        <li class="flink4">
                             <p><a href="mailto:ohmyfood@gmail.com">Contact</a></p>
                         </li>
                     </ul>
+                </div>
+                <div class="f3">
                 </div>
             </footer>
         </div>

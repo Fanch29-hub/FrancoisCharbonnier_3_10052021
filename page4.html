@@ -6,7 +6,7 @@
 <!-- balise "title" -->
 <title>Ohmyfood</title>
 <!-- déclaration de la feuille de style CSS -->
-<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="Aurore style.css" />
 <!-- balise meta de Apple pour adapter l'écran aux smartphones -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- balise meta de description pour le SEO -->
@@ -14,8 +14,12 @@
 <!-- balise pour ajouter les icones de fontawesome -->
 <script src="https://kit.fontawesome.com/2f75277f0d.js" crossorigin="anonymous"></script>
 <!-- polices Google Fonts -->
-<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Shrikhand" />
-<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet"> 
 </head>
 <!-- partie "body" -->
     <body>
@@ -24,10 +28,10 @@
 <!-- partie "HEADER" -->
             <header>
                 <div class="logo">
-                    <a href="#" class="Ohmyfoodf"><img class="logoblack" src="images/ohmyfood.png" alt="logo_Ohmyfood" /></a>
-                     	<div class="arrow">
-                     	 <i class="fas fa-arrow-left"></i>
-                     	</div>
+                	<a href="#" class="Ohmyfoodf"><img class="logoblack" src="images/ohmyfood.png" alt="logo_Ohmyfood" /></a>
+					 </div>
+                <div class="arrow">
+                	<i class="fas fa-arrow-left"></i>
                 </div>
             </header>
             <div class="backgroundmenu">
@@ -47,16 +51,19 @@
                     </div>
                     <div>
                         <div class="boutonsmenu">
-                            <H2>Tartare de thon</H2>
-                            <P>Assaisonné au yuzu 25€</P>
+                            <h2>Tartare de thon</h2>
+                            <p>Assaisonné au yuzu</p>
+                            <p>25€</p>
                         </div>
                         <div class="boutonsmenu">
-                            <H2>Bouchée de homard croustillant </H2>
-                            <P>Et sa farandole de petits légumes 35€</P> 
+                            <h2>Bouchée de homard croustillant </h2>
+                            <p>Et sa farandole de petits légumes</p>
+                            <p>35€</p> 
                         </div>
                         <div class="boutonsmenu">
-                            <H2>Velouté de cèpes </H2>
-                            <P>Aux truffes 20€</P> 
+                            <h2>Velouté de cèpes </h2>
+                            <p>Aux truffes</p>
+                            <p>20€</p> 
                         </div>
                     </div>
                 </div>
@@ -69,16 +76,19 @@
                     </div>
                     <div>
                         <div class="boutonsmenu">
-                            <H2>Poulet rôti aux herbes de Provence </H2>
-                            <P>Et sa crème de truffe 40€</P>
+                            <h2>Poulet rôti aux herbes de Provence </h2>
+                            <p>Et sa crème de truffe</p>
+                            <p>40€</p>
                         </div>
                         <div class="boutonsmenu">
-                            <H2>Langouste rôtie </H2>
-                            <P>Et ses légumes de saison 35€</P>
+                            <Hh>Langouste rôtie </h2>
+                            <p>Et ses légumes de saison</p>
+                            <p>35€</p>
                         </div>
                         <div class="boutonsmenu">
-                            <H2>Côte de boeuf Angus </H2>
-                            <P>Et sa purée de panais 44€</P>
+                            <h2>Côte de boeuf Angus </h2>
+                            <p>Et sa purée de panais</p>
+                            <p>44€</p>
                         </div>
                     </div>
                 </div>
@@ -91,46 +101,51 @@
                     </div>
                     <div>
                         <div class="boutonsmenu">
-                            <H2>Farandole de desserts</H2>
-                            <P>Du chef 18€</P>
+                            <h2>Farandole de desserts</h2>
+                            <p>Du chef</p>
+                            <p>18€</p>
                         </div>
                         <div class="boutonsmenu">
-                            <H2>Crème brulée </H2>
-                            <P>Revisitée 22€</P> 
+                            <h2>Crème brulée </h2>
+                            <p>Revisitée</p>
+                            <p>22€</p> 
                         </div>
                         <div class="boutonsmenu">
-                            <H2>Tiramisu</H2>
-                            <P>À la noisette 23€</P>
+                            <h2>Tiramisu</h2>
+                            <p>À la noisette</p>
+                            <p>23€</p>
                         </div>
                     </div>
                 </div>
             </section>
             <div class="commander">
             	<p>
-            		<a href="#">commander</a>
+            		<a href="#">Commander</a>
            		</p>
             </div>
             </div>
 <!-- partie "FOOTER" -->
             <footer>
-                <div>
+                <div class="f1">
                     <a href="#" class="Ohmyfoode"><img class="logowhite" src="images/ohmyfood.png" alt="logo_Ohmyfood" /></a>
                 </div>
                 <div>
-                    <ul>
-                        <li>
+                    <ul class="f2">
+                        <li class="flink1">
                             <i class="fas fa-utensils"></i><a href="#">Proposer un restaurant</a> 
                         </li>
-                        <li>
+                        <li class="flink2">
                             <i class="fas fa-hands-helping"></i><a href="#">Devenir partenaire</a>
                         </li>
-                        <li>
+                        <li class="flink3">
                             <a href="#">Mentions légales</a>
                         </li>
-                        <li>
+                        <li class="flink4">
                             <p><a href="mailto:ohmyfood@gmail.com">Contact</a></p>
                         </li>
                     </ul>
+                </div>
+                <div class="f3">
                 </div>
             </footer>
         </div>
