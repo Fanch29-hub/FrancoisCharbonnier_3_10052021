@@ -6,7 +6,7 @@
 <!-- balise "title" -->
 <title>Ohmyfood</title>
 <!-- déclaration de la feuille de style CSS -->
-<link rel="stylesheet" href="Aurore style.css" />
+<link rel="stylesheet" href="style.css" />
 <!-- balise meta de Apple pour adapter l'écran aux smartphones -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- balise meta de description pour le SEO -->
@@ -41,7 +41,36 @@
 <!-- titre  "SECTIONS" -->
 				<div class="fondgrismenu">
             	<div class="titre">
-                Le délice des sens<i class="far fa-heart"></i>
+                Le délice des sens
+                 <div class="menu__header__heart">
+            <svg class="heart heart-full" viewBox="-20 0 550 550" xml:space="preserve">
+              <path d="M376,30c-27.783,0-53.255,8.804-75.707,26.168c-21.525,16.647-35.856,37.85-44.293,53.268
+                       c-8.437-15.419-22.768-36.621-44.293-53.268C189.255,38.804,163.783,30,136,30C58.468,30,0,93.417,0,177.514
+                       c0,90.854,72.943,153.015,183.369,247.118c18.752,15.981,40.007,34.095,62.099,53.414C248.38,480.596,252.12,482,256,482
+                       s7.62-1.404,10.532-3.953c22.094-19.322,43.348-37.435,62.111-53.425C439.057,330.529,512,268.368,512,177.514
+                       C512,93.417,453.532,30,376,30z"></path>
+            <defs>
+              <linearGradient id="text-fill">
+                    <stop offset="0%" stop-color="#9356DC"></stop>
+                    <stop offset="100%" stop-color="#FF79DA"></stop>
+              </linearGradient>
+            </defs>                                   
+          </svg>
+  
+          <svg class="heart heart-empty" viewBox="-20 0 550 550" xml:space="preserve">
+              <path d="M376,30c-27.783,0-53.255,8.804-75.707,26.168c-21.525,16.647-35.856,37.85-44.293,53.268
+                       c-8.437-15.419-22.768-36.621-44.293-53.268C189.255,38.804,163.783,30,136,30C58.468,30,0,93.417,0,177.514
+                       c0,90.854,72.943,153.015,183.369,247.118c18.752,15.981,40.007,34.095,62.099,53.414C248.38,480.596,252.12,482,256,482
+                       s7.62-1.404,10.532-3.953c22.094-19.322,43.348-37.435,62.111-53.425C439.057,330.529,512,268.368,512,177.514
+                       C512,93.417,453.532,30,376,30z"></path>
+            <defs>
+              <linearGradient>
+                    <stop offset="0%" stop-color="#9356DC"></stop>
+                    <stop offset="100%" stop-color="#FF79DA"></stop>
+              </linearGradient>
+            </defs>                                   
+          </svg>
+           </div>
             </div>
 <!-- partie "SECTION1" -->
             <section>
@@ -50,20 +79,26 @@
                         <h1>ENTRÉES</h1>
                     </div>
                     <div>
+                         <div class="menu__grid__case appears-with-opacity" id="case-1">
                         <div class="boutonsmenu">
                             <h2>Tartare de thon</h2>
                             <p>Assaisonné au yuzu</p>
                             <p>25€</p>
                         </div>
+                        </div>
+                         <div class="menu__grid__case appears-with-opacity" id="case-2">
                         <div class="boutonsmenu">
                             <h2>Bouchée de homard croustillant </h2>
                             <p>Et sa farandole de petits légumes</p>
                             <p>35€</p> 
                         </div>
+                        </div>
+                         <div class="menu__grid__case appears-with-opacity" id="case-3">
                         <div class="boutonsmenu">
                             <h2>Velouté de cèpes </h2>
                             <p>Aux truffes</p>
                             <p>20€</p> 
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -75,20 +110,26 @@
                         <h1>PLATS</h1>
                     </div>
                     <div>
+                         <div class="menu__grid__case appears-with-opacity" id="case-4">
                         <div class="boutonsmenu">
                             <h2>Poulet rôti aux herbes de Provence </h2>
                             <p>Et sa crème de truffe</p>
                             <p>40€</p>
                         </div>
+                        </div>
+                         <div class="menu__grid__case appears-with-opacity" id="case-5">
                         <div class="boutonsmenu">
                             <Hh>Langouste rôtie </h2>
                             <p>Et ses légumes de saison</p>
                             <p>35€</p>
                         </div>
+                        </div>
+                         <div class="menu__grid__case appears-with-opacity" id="case-6">
                         <div class="boutonsmenu">
                             <h2>Côte de boeuf Angus </h2>
                             <p>Et sa purée de panais</p>
                             <p>44€</p>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -100,20 +141,26 @@
                         <h1>DESSERTS</h1>
                     </div>
                     <div>
+                         <div class="menu__grid__case appears-with-opacity" id="case-7">
                         <div class="boutonsmenu">
                             <h2>Farandole de desserts</h2>
                             <p>Du chef</p>
                             <p>18€</p>
                         </div>
+                        </div>
+                         <div class="menu__grid__case appears-with-opacity" id="case-8">
                         <div class="boutonsmenu">
                             <h2>Crème brulée </h2>
                             <p>Revisitée</p>
                             <p>22€</p> 
                         </div>
+                        </div>
+                         <div class="menu__grid__case appears-with-opacity" id="case-9">
                         <div class="boutonsmenu">
                             <h2>Tiramisu</h2>
                             <p>À la noisette</p>
                             <p>23€</p>
+                        </div>
                         </div>
                     </div>
                 </div>
