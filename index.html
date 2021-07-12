@@ -14,15 +14,17 @@
 <!-- balise pour ajouter les icones de fontawesome -->
 <script src="https://kit.fontawesome.com/2f75277f0d.js" crossorigin="anonymous"></script>
 <!-- polices Google Fonts -->
-<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Shrikhand" />
-<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto" />
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;900&family=Shrikhand&display=swap" rel="stylesheet"> 
 </head>
 <!-- partie "body" -->
- <!-- Loading spinner -->
-<div class="loader"></div>
     <body>
-<!-- DIV englobant toute la page -->
-        <div id= "blockpage">
+     <!-- Loading spinner -->
+<div class="loading">
+<div class="loader">
+</div>
+</div>
+<!-- DIV englobant toute la page -->       
+       <div id= "blockpage">
 <!-- partie "HEADER" -->
             <header>
                 <div class="logo">
@@ -48,15 +50,13 @@
                         </p>
                     </div>
                     <div class="explorer">
-                        <p>
-                            <a href="#">Explorer nos restaurants</a>
-                        </p>
+                         <button class="menu--btn">Explorer les restaurants</button>
                     </div>
                 </div>
             </aside>
 <!-- partie "NAV" -->
             <nav>
-                <div>
+                <div class="Fonctionnement">
                     <div>
                         <h2>
                             Fonctionnement
@@ -70,7 +70,7 @@
                             <i class="fas fa-list-ul"></i><a href="#">Composez votre menu</a>
                         </li>
                         <li class="boutons">
-                            <i class="fas fa-store"></i><a href="#">dégustez au restaurant</a>
+                            <i class="fas fa-store"></i><a href="#">Dégustez au restaurant</a>
                         </li>
                     </ol>
                 </div>
@@ -78,16 +78,17 @@
 <!-- partie "SECTION" -->
             <section>
             	<div class="fondgris">
-                	<div>
+                	<div class="Restaurants">
                     	<h2>
                         	Restaurants
                     	</h2>
                 	</div>
-                	<div>
-                    	<div>
+                	<div class="figures">
+                    	<div class="figures__image">
                     		<a href="page1.html">
                         	<figure>
-                        	<img src="images/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="">
+                        	  	<div class="choices__info--new">Nouveau</div>
+                        		<img src="images/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="">
                             	<figcaption>
                                 	<p>
                                     	La palette du goût
@@ -96,75 +97,24 @@
                                     	Ménilmontant
                                 	</p>
                                 	 <div class="menu__header__heart">
-            <svg class="heart heart-full" viewBox="-20 0 550 550" xml:space="preserve">
-              <path d="M376,30c-27.783,0-53.255,8.804-75.707,26.168c-21.525,16.647-35.856,37.85-44.293,53.268
-                       c-8.437-15.419-22.768-36.621-44.293-53.268C189.255,38.804,163.783,30,136,30C58.468,30,0,93.417,0,177.514
-                       c0,90.854,72.943,153.015,183.369,247.118c18.752,15.981,40.007,34.095,62.099,53.414C248.38,480.596,252.12,482,256,482
-                       s7.62-1.404,10.532-3.953c22.094-19.322,43.348-37.435,62.111-53.425C439.057,330.529,512,268.368,512,177.514
-                       C512,93.417,453.532,30,376,30z"></path>
-            <defs>
-              <linearGradient id="text-fill">
-                    <stop offset="0%" stop-color="#9356DC"></stop>
-                    <stop offset="100%" stop-color="#FF79DA"></stop>
-              </linearGradient>
-            </defs>                                   
-          </svg>
-  
-          <svg class="heart heart-empty" viewBox="-20 0 550 550" xml:space="preserve">
-              <path d="M376,30c-27.783,0-53.255,8.804-75.707,26.168c-21.525,16.647-35.856,37.85-44.293,53.268
-                       c-8.437-15.419-22.768-36.621-44.293-53.268C189.255,38.804,163.783,30,136,30C58.468,30,0,93.417,0,177.514
-                       c0,90.854,72.943,153.015,183.369,247.118c18.752,15.981,40.007,34.095,62.099,53.414C248.38,480.596,252.12,482,256,482
-                       s7.62-1.404,10.532-3.953c22.094-19.322,43.348-37.435,62.111-53.425C439.057,330.529,512,268.368,512,177.514
-                       C512,93.417,453.532,30,376,30z"></path>
-            <defs>
-              <linearGradient>
-                    <stop offset="0%" stop-color="#9356DC"></stop>
-                    <stop offset="100%" stop-color="#FF79DA"></stop>
-              </linearGradient>
-            </defs>                                   
-          </svg>
-           </div>
+                     <i class="fas fa-heart coeur"></i>
+                     </div>
                             	</figcaption>
                         	</figure>
                         </a>
                     	</div>
-                    	<div>
+                    	<div class="figures__image">
                     		<a href="page2.html">
                         	<figure>
+                        	   <div class="choices__info--new">Nouveau</div>
                             	<img src="images/stil-u2Lp8tXIcjw-unsplash.jpg" alt="">
                             	<figcaption>
                                 	<p>
                                     	La note enchantée
                                     	 <div class="menu__header__heart">
-            <svg class="heart heart-full" viewBox="-20 0 550 550" xml:space="preserve">
-              <path d="M376,30c-27.783,0-53.255,8.804-75.707,26.168c-21.525,16.647-35.856,37.85-44.293,53.268
-                       c-8.437-15.419-22.768-36.621-44.293-53.268C189.255,38.804,163.783,30,136,30C58.468,30,0,93.417,0,177.514
-                       c0,90.854,72.943,153.015,183.369,247.118c18.752,15.981,40.007,34.095,62.099,53.414C248.38,480.596,252.12,482,256,482
-                       s7.62-1.404,10.532-3.953c22.094-19.322,43.348-37.435,62.111-53.425C439.057,330.529,512,268.368,512,177.514
-                       C512,93.417,453.532,30,376,30z"></path>
-            <defs>
-              <linearGradient id="text-fill">
-                    <stop offset="0%" stop-color="#9356DC"></stop>
-                    <stop offset="100%" stop-color="#FF79DA"></stop>
-              </linearGradient>
-            </defs>                                   
-          </svg>
-  
-          <svg class="heart heart-empty" viewBox="-20 0 550 550" xml:space="preserve">
-              <path d="M376,30c-27.783,0-53.255,8.804-75.707,26.168c-21.525,16.647-35.856,37.85-44.293,53.268
-                       c-8.437-15.419-22.768-36.621-44.293-53.268C189.255,38.804,163.783,30,136,30C58.468,30,0,93.417,0,177.514
-                       c0,90.854,72.943,153.015,183.369,247.118c18.752,15.981,40.007,34.095,62.099,53.414C248.38,480.596,252.12,482,256,482
-                       s7.62-1.404,10.532-3.953c22.094-19.322,43.348-37.435,62.111-53.425C439.057,330.529,512,268.368,512,177.514
-                       C512,93.417,453.532,30,376,30z"></path>
-            <defs>
-              <linearGradient>
-                    <stop offset="0%" stop-color="#9356DC"></stop>
-                    <stop offset="100%" stop-color="#FF79DA"></stop>
-              </linearGradient>
-            </defs>                                   
-          </svg>
+                      <i class="fas fa-heart coeur"></i>
+
            </div>
-                                	</p>
                                 	<p>
                                      	Charonne
                                 	</p>
@@ -172,7 +122,7 @@
                         	</figure>
                         </a>
                     	</div>
-                    	<div>
+                    	<div class="figures__image">
                     		<a href="page3.html">
                         	<figure>
                         	<img src="images/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="">
@@ -180,35 +130,9 @@
                                 <p>
                                     À la française
                                      <div class="menu__header__heart">
-            <svg class="heart heart-full" viewBox="-20 0 550 550" xml:space="preserve">
-              <path d="M376,30c-27.783,0-53.255,8.804-75.707,26.168c-21.525,16.647-35.856,37.85-44.293,53.268
-                       c-8.437-15.419-22.768-36.621-44.293-53.268C189.255,38.804,163.783,30,136,30C58.468,30,0,93.417,0,177.514
-                       c0,90.854,72.943,153.015,183.369,247.118c18.752,15.981,40.007,34.095,62.099,53.414C248.38,480.596,252.12,482,256,482
-                       s7.62-1.404,10.532-3.953c22.094-19.322,43.348-37.435,62.111-53.425C439.057,330.529,512,268.368,512,177.514
-                       C512,93.417,453.532,30,376,30z"></path>
-            <defs>
-              <linearGradient id="text-fill">
-                    <stop offset="0%" stop-color="#9356DC"></stop>
-                    <stop offset="100%" stop-color="#FF79DA"></stop>
-              </linearGradient>
-            </defs>                                   
-          </svg>
-  
-          <svg class="heart heart-empty" viewBox="-20 0 550 550" xml:space="preserve">
-              <path d="M376,30c-27.783,0-53.255,8.804-75.707,26.168c-21.525,16.647-35.856,37.85-44.293,53.268
-                       c-8.437-15.419-22.768-36.621-44.293-53.268C189.255,38.804,163.783,30,136,30C58.468,30,0,93.417,0,177.514
-                       c0,90.854,72.943,153.015,183.369,247.118c18.752,15.981,40.007,34.095,62.099,53.414C248.38,480.596,252.12,482,256,482
-                       s7.62-1.404,10.532-3.953c22.094-19.322,43.348-37.435,62.111-53.425C439.057,330.529,512,268.368,512,177.514
-                       C512,93.417,453.532,30,376,30z"></path>
-            <defs>
-              <linearGradient>
-                    <stop offset="0%" stop-color="#9356DC"></stop>
-                    <stop offset="100%" stop-color="#FF79DA"></stop>
-              </linearGradient>
-            </defs>                                   
-          </svg>
+                       <i class="fas fa-heart coeur"></i>
+
            </div>
-                                </p>
                                 <p>
                                     Cité Rouge
                                 </p>
@@ -216,7 +140,7 @@
                         	</figure>
                         </a>
                     </div>
-                    <div>
+                    <div class="figures__image">
                     	<a href="page4.html">
                         <figure>
                             <img src="images/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="">
@@ -224,35 +148,9 @@
                                 <p>
                                     Le délice des sens
                                      <div class="menu__header__heart">
-            <svg class="heart heart-full" viewBox="-20 0 550 550" xml:space="preserve">
-              <path d="M376,30c-27.783,0-53.255,8.804-75.707,26.168c-21.525,16.647-35.856,37.85-44.293,53.268
-                       c-8.437-15.419-22.768-36.621-44.293-53.268C189.255,38.804,163.783,30,136,30C58.468,30,0,93.417,0,177.514
-                       c0,90.854,72.943,153.015,183.369,247.118c18.752,15.981,40.007,34.095,62.099,53.414C248.38,480.596,252.12,482,256,482
-                       s7.62-1.404,10.532-3.953c22.094-19.322,43.348-37.435,62.111-53.425C439.057,330.529,512,268.368,512,177.514
-                       C512,93.417,453.532,30,376,30z"></path>
-            <defs>
-              <linearGradient id="text-fill">
-                    <stop offset="0%" stop-color="#9356DC"></stop>
-                    <stop offset="100%" stop-color="#FF79DA"></stop>
-              </linearGradient>
-            </defs>                                   
-          </svg>
-  
-          <svg class="heart heart-empty" viewBox="-20 0 550 550" xml:space="preserve">
-              <path d="M376,30c-27.783,0-53.255,8.804-75.707,26.168c-21.525,16.647-35.856,37.85-44.293,53.268
-                       c-8.437-15.419-22.768-36.621-44.293-53.268C189.255,38.804,163.783,30,136,30C58.468,30,0,93.417,0,177.514
-                       c0,90.854,72.943,153.015,183.369,247.118c18.752,15.981,40.007,34.095,62.099,53.414C248.38,480.596,252.12,482,256,482
-                       s7.62-1.404,10.532-3.953c22.094-19.322,43.348-37.435,62.111-53.425C439.057,330.529,512,268.368,512,177.514
-                       C512,93.417,453.532,30,376,30z"></path>
-            <defs>
-              <linearGradient>
-                    <stop offset="0%" stop-color="#9356DC"></stop>
-                    <stop offset="100%" stop-color="#FF79DA"></stop>
-              </linearGradient>
-            </defs>                                   
-          </svg>
+                    <i class="fas fa-heart coeur"></i>
+
            </div>
-                                </p>
                                 <p>
                                     Folie-Méricourt
                                 </p>
@@ -264,27 +162,31 @@
                 </div>
             </section>
 <!-- partie "FOOTER" -->
-            <footer>
-                <div>
-                    <a href="#" class="Ohmyfoode"><img class="logowhite" src="images/ohmyfood.png" alt="logo_Ohmyfood" /></a>
-                </div>
-                <div>
-                    <ul>
+            <footer class="footer">
+                <a href="#" class="Ohmyfoode"><img class="logowhite" src="images/ohmyfood.png" alt="logo_Ohmyfood" /></a>
+                   <ul>
                         <li>
-                            <i class="fas fa-utensils"></i><a href="#">Proposer un restaurant</a> 
+                        <a href="#">
+                            <i class="fas fa-utensils" aria-hidden="true">
+                            </i>
+                            Proposer un restaurant
+                        </a>
                         </li>
                         <li>
-                            <i class="fas fa-hands-helping"></i><a href="#">Devenir partenaire</a>
+                           <a href="#">
+                            <i class="fas fa-hands-helping" aria-hidden="true">
+                            </i>
+                            Devenir partenaire
+                            </a>
                         </li>
                         <li>
                             <a href="#">Mentions légales</a>
                         </li>
                         <li>
-                            <p><a href="mailto:ohmyfood@gmail.com">Contact</a></p>
+                           <a href="mailto:ohmyfood@gmail.com">Contact</a>
                         </li>
                     </ul>
-                </div>
             </footer>
-        </div>
+        </div>            
     </body>
 </html>
